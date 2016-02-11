@@ -1,0 +1,32 @@
+{
+    "name": "sim-vzla/laracruds",
+    "description": "Repository pattern helpers classes for Laravel Framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Viviannys Díaz",
+            "email": "viviannys07@gmail.com"
+        },
+        {
+            "name": "Johnny Martínez",
+            "email": "johnnymn@hotmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.1",
+        "orchestra/testbench": "~3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Laracruds\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Test\\": "test/"
+        }
+    }
+}
