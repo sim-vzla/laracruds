@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/sim-vzla/laracruds.svg?branch=master)](https://travis-ci.org/sim-vzla/laracruds)
+
 ##Laracruds
 ####A repository pattern helpers and validators for Laravel Framework
 
