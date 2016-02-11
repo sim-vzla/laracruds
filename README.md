@@ -7,6 +7,15 @@ This package can help you be more productive when writing cruds for eloquent mod
 
 #####Instalation
 
+	composer require sim-vzla/laracruds
+
+Then add the:
+
+	Laracruds\LaracrudsServiceProvider::class
+
+to your providers array in config/app.php. To publish the config files use:
+
+	php artisan vendor:publish --provider=Laracruds\LaracrudsServiceProvider
 
 #####Usage
 Lets say you wanna create a User model repository. Well then just extend the base repository class of the package:
