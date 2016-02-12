@@ -12,10 +12,8 @@
             "email": "johnnymn@hotmail.com"
         }
     ],
-    "require": {
-        "illuminate/support": "^5.2"
-    },
     "require-dev": {
+        "illuminate/support": "^5.2",
         "phpunit/phpunit": "^5.1",
         "orchestra/testbench": "~3.2"
     },
